@@ -326,6 +326,92 @@
 }
 
 @media only screen and (max-width: 767px){
+
+	/*
+	* 2023-02-13 모바일 버전 스타일 추가
+	*/
+	.padding-0 {
+		padding: 0 !important;
+	}
+
+	.padding-15 {
+		padding: 15px !important;
+	}
+
+	.history_box h4 .roboto {
+		font-size: 1.1rem;
+	}
+
+	.history_box ul {
+		float: right;
+		width: calc(100% - 57px);
+		border-top: 1px solid #d9d9d9;
+	}
+
+	.history_box ul li dl {
+		padding-left: 45px;
+		position: relative;
+	}
+
+	.history_box ul li dl dd {
+		font-size: 13px;
+		line-height: 1.5rem;
+		font-weight: 400;
+	}
+
+	.history_box ul li dl dt {
+		font-size: 0.9rem !important;
+	}
+
+	.ai01 .solution>div {
+		padding: 25px !important;
+	}
+
+	.ai01 .solution>div ul li {
+		font-size: 14px;
+		font-weight: bold;
+		color: #777777;
+	}
+
+	.best_case_detail_title {
+		margin: 20px 0 0 0 !important;
+	}
+
+	.best_case_detail_content_text {
+		margin: 20px 0 20px 0 !important;
+	}
+
+	.best_case_detail_background, .best_case_detail_row {
+		padding: 1px 10px !important;
+	}
+
+	.best_case_detail_content_company {
+		font-size: 13px !important;
+	}
+
+
+	
+	.best_case_detail_content_company p {
+		font-size: 14px !important;
+	}
+
+	.ai01 .solution ol .tit {
+		margin-right: 17px !important;
+		font-size: 15px !important;
+	}
+
+	.ai01 .solution>div p {
+		font-size: 15px !important;
+		font-weight: bold;
+	}
+
+	.bullet ul li {
+		font-size: 0.8rem;
+	}
+	
+	/*
+	* -----------------------------------------------------
+	*/
 	
 	.main-menu .navigation > li.has-mega-menu,
 	.mobile-menu .navigation li.has-mega-menu{
@@ -713,7 +799,7 @@
 	}
 	
 	.page-title{
-		padding:120px 0px;
+		padding: 80px 0px;
 	}
 	
 	.page-title h2{
@@ -820,8 +906,9 @@
 	
 	.call-to-action-three-section .title-box h2,
 	.business-section .content-column .inner-column h2{
-		font-size:24px;
+		font-size:17px;
 		line-height:1.4em;
+		font-weight: 600;
 	}
 	
 	.management-section .image-column .crm-box{

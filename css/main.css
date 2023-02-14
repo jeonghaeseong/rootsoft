@@ -156,7 +156,7 @@ input,button,select,textarea{
 	
 }
 
-.title_bar1{height:40px; background:url('../images/icons/title_bar1.png')no-repeat 0 0; font-size:20px; font-weight:bold;color:#333; line-height:42px;}
+.title_bar1{height:40px; background:url('../images/icons/title_bar1.png')no-repeat 0 0; font-size:18px; font-weight:bold;color:#333; line-height:42px;}
 
 .lower-content .column {
   width: calc(48% - 5px);
@@ -5982,7 +5982,7 @@ History
 
 .history_box h4 {
   float: left;
-  width: 220px;
+  width: 20px;
   font-size: 1.5rem;
   color: #333;
   font-weight: 500;
@@ -6066,7 +6066,7 @@ dl, ol, ul {margin-top:3px;}
 
 
 /*****************
-ÁÖ¿ä±¸ÃàÇöÈ²
+ï¿½Ö¿ä±¸ï¿½ï¿½ï¿½ï¿½È²
 ******************/
 
 
